@@ -17,4 +17,5 @@ print("---------------------------------------------")
 #Lê uma lista de linhas
 file.seek(0, 0)
 print(file.readlines())
+# Fecha o arquivo
 file.close()
